@@ -26,6 +26,7 @@ int main(int argc, char** argv) {
 					cout<<e[i];
 				}
 		}
+	return 0;
 	if (a==2)
 		{
 			
