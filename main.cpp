@@ -44,7 +44,7 @@ int main(int argc, char** argv) {
 					{
 						d=d+pow(2,m);
 					}
-					else if(c!=0) cout<<"nhap sai";
+					else if(c!=0) {cout<<"nhap sai";return 0;}
 				}
 		cout<<d+1;
 		}
