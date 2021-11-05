@@ -9,7 +9,6 @@ int main(int argc, char** argv) {
 	cout<<"2. chuyen nhi phan sang thap phan \n";
 	cin>>a;
 	int e[10];
-	char d[5];
 	if (a==1)
 	    {
 	    	cout<<"nhap so ";
