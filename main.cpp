@@ -21,7 +21,7 @@ int main(int argc, char** argv) {
 	    	    	e[i]=c; 
 	    	    	m++;
 				}
-			for (int i=m;i>0;i--)
+			for (int i=m-1;i>0;i--)
 				{
 					cout<<e[i];
 				}
