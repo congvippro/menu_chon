@@ -12,7 +12,7 @@ int main()
     if((nam%4 == 0 && nam%100 != 0) || nam%400 == 0)
         {
             if(thang==2 && (ngay >29 || ngay <= 0)) cout << "ngay khong hop le\n";
-            else c=1;
+            else if(thang==2 && (ngay <29 || ngay >= 0)) c=1;
         }
     else{
             if(thang==2 && (ngay >28 || ngay <= 0)) cout << "ngay khong hop le\n";
